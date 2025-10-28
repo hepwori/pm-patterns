@@ -4,7 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const patternMap = new Map();
   let patternsData = null;
 
+  const setBodyClass = (pageType) => {
+    document.body.classList.remove('page-home', 'page-pattern', 'page-contents', 'page-about');
+    document.body.classList.add(`page-${pageType}`);
+  };
+
   const renderTableOfContents = () => {
+    setBodyClass('contents');
     let html = '<h1>Table of Contents</h1>';
     patternsData.groups.forEach(group => {
       html += `<h2>${group.name}</h2>`;
@@ -18,6 +24,14 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   const renderMarkdown = async (file) => {
+    if (file === patternsData.home) {
+      setBodyClass('home');
+    } else if (file === patternsData.about) {
+      setBodyClass('about');
+    } else {
+      setBodyClass('pattern');
+    }
+
     const response = await fetch(file);
     if (response.ok) {
       let text = await response.text();
