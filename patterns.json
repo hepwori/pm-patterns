@@ -3,51 +3,37 @@
   "about": "patterns/about.md",
   "groups": [
     {
-      "name": "Leadership & Influence",
+      "name": "Meaning & Communication",
       "patterns": [
-        { "name": "Creating Gravity", "file": "patterns/creating-gravity.md",
-          "summary": "How a clear, consistent vision builds a field of attraction that aligns others without force; influence through coherence, not control." },
-        { "name": "Elastic Leadership", "file": "patterns/elastic-leadership.md",
-          "summary": "Staying just far enough ahead to create productive tension without snapping connection; ambition and proximity in dynamic balance." },
-        { "name": "Vision Anchoring", "file": "patterns/vision-anchoring.md",
-          "summary": "Rooting a product or initiative inside a larger, emotionally resonant narrative so that direction feels inevitable rather than imposed." }
+        { "name": "Alignment Mirage", "file": "patterns/alignment-mirage.md", "summary": "The illusion of shared understanding when language scales faster than meaning." },
+        { "name": "Cultural Dialects", "file": "patterns/cultural-dialects.md", "summary": "The emergence of different sub-languages within an organization." },
+        { "name": "Explanatory Power vs Precision", "file": "patterns/explanatory-power-vs-precision.md", "summary": "The trade-off between clarity and detail in communication." },
+        { "name": "Surface Consensus", "file": "patterns/surface-consensus.md", "summary": "The illusion of agreement in a group, masking underlying differences." }
       ]
     },
     {
-      "name": "Alignment & Communication",
+      "name": "Systems & Incentives",
       "patterns": [
-        { "name": "Alignment Mirage", "file": "patterns/alignment-mirage.md",
-          "summary": "The illusion of shared understanding sustained by ambiguous language; coherence dissolves on contact with execution." },
-        { "name": "Cultural Dialects", "file": "patterns/cultural-dialects.md",
-          "summary": "The subtle ways subcultures—engineering, design, operations—encode meaning differently, producing chronic small misunderstandings." },
-        { "name": "Explanatory Power vs Precision", "file": "patterns/explanatory-power-vs-precision.md",
-          "summary": "Every act of communication trades fidelity for clarity; the craft lies in matching cognitive resolution to audience." },
-        { "name": "Ontology Leakage", "file": "patterns/ontology-leakage.md",
-          "summary": "When internal models and categories seep into the user experience, forcing customers to think like the org instead of being served by it." },
-        { "name": "Surface Consensus", "file": "patterns/surface-consensus.md",
-          "summary": "When apparent agreement conceals real divergence; surfacing dissonance early prevents brittle coordination." }
+        { "name": "Conservation of Organizational Cost", "file": "patterns/conservation-of-organizational-cost.md", "summary": "The idea that costs in an organization are not eliminated, but shifted." },
+        { "name": "Dual Competence", "file": "patterns/dual-competence.md", "summary": "The need for both product craftsmanship and organizational navigation skills." },
+        { "name": "Perverse Correlation", "file": "patterns/perverse-correlation.md", "summary": "When a metric becomes a target and its meaning inverts." },
+        { "name": "Reward Loop Asymmetry", "file": "patterns/reward-loop-asymmetry.md", "summary": "The tendency for short-term, visible rewards to dominate behavior." },
+        { "name": "Symbolic Friction", "file": "patterns/symbolic-friction.md", "summary": "Introducing a small, visible cost to correct a behavior." }
       ]
     },
     {
-      "name": "System Dynamics & Incentive",
+      "name": "Vision & Strategy",
       "patterns": [
-        { "name": "Conservation of Organizational Cost", "file": "patterns/conservation-of-organizational-cost.md",
-          "summary": "Costs are never eliminated, only shifted between visible and invisible domains; efficiency here creates drag elsewhere." },
-        { "name": "Perverse Correlation", "file": "patterns/perverse-correlation.md",
-          "summary": "Once metrics become targets, they invert their meaning; measurement detaches from reality as optimization takes hold." },
-        { "name": "Reward Loop Asymmetry", "file": "patterns/reward-loop-asymmetry.md",
-          "summary": "Short-term incentives generate faster feedback than long-term value, making myopia the rational behavior." },
-        { "name": "Symbolic Friction", "file": "patterns/symbolic-friction.md",
-          "summary": "Small, visible frictions like fees or rituals restore accountability where zero-cost behavior erodes discipline." }
+        { "name": "Creating Gravity", "file": "patterns/creating-gravity.md", "summary": "Using a strong vision to create alignment without direct control." },
+        { "name": "Elastic Leadership", "file": "patterns/elastic-leadership.md", "summary": "The balance between a long-term vision and the team's current reality." },
+        { "name": "Vision Anchoring", "file": "patterns/vision-anchoring.md", "summary": "Framing a product within a larger, aspirational narrative." }
       ]
     },
     {
-      "name": "System–Human Interfaces",
+      "name": "Product & User",
       "patterns": [
-        { "name": "Dual Competence", "file": "patterns/dual-competence.md",
-          "summary": "Mastery in navigating the system versus mastery of the discipline; the two career logics of product management." },
-        { "name": "Algorithm–Product Gap", "file": "patterns/algorithm-product-gap.md",
-          "summary": "When algorithmic optimization and human experience diverge; a model can be statistically right yet experientially wrong" }
+        { "name": "Algorithm–Product Gap", "file": "patterns/algorithm-product-gap.md", "summary": "The disconnect between a model's technical success and its value to users." },
+        { "name": "Ontology Leakage", "file": "patterns/ontology-leakage.md", "summary": "When a company's internal model of the world is exposed to users." }
       ]
     }
   ]
