@@ -8,12 +8,13 @@
 </head>
 <body>
   <div class="container">
-    <nav class="sidebar">
-      <h1><a href="#">PM Patterns</a></h1>
-      <div id="nav-links"></div>
+    <nav class="sidebar" aria-label="Site navigation">
+      <div class="sidebar__brand">
+        <a class="sidebar__title" href="#">PM Patterns</a>
+      </div>
+      <div id="nav-links" class="sidebar__nav"></div>
     </nav>
-    <main class="content" id="content">
-    </main>
+    <main class="content" id="content" role="main" aria-live="polite"></main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="app.js"></script>
